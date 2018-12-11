@@ -1,0 +1,36 @@
+{
+  "name": "txdata",
+  "namespace": "pchain",
+  "version": "1.0.1",
+  "description": "Get The Transaction's Data For  sendRawTransaction RPC",
+  "main": "./index.js",
+  "dependencies": {
+    "bignumber.js": "github:frozeman/bignumber.js-nolookahead",
+    "crypto-js": "^3.1.4",
+    "lodash": "^4.17.11",
+    "utf8": "^3.0.0"
+  },
+  "devDependencies": {
+    "browserify": ">=10.0"
+  },
+  "scripts": {
+    "test": "node test/index.js",
+    "browser":"browserify index.js -o dist/txdata.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/PchainJS/txdata.git"
+  },
+  "homepage": "https://github.com/PchainJS/txdata",
+  "bugs": {
+    "url": "https://github.com/PchainJS/txdata/issues"
+  },
+  "keywords": [
+    "Pchain",
+    "Javascript",
+    "Transaction"
+  ],
+  "author": "skykingit@aliyun.com",
+  "authors": [],
+  "license": "LGPL-3.0"
+}
