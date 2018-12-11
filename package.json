@@ -1,8 +1,8 @@
 {
   "name": "txdata",
   "namespace": "pchain",
-  "version": "1.0.2",
-  "description": "Get The Transaction's Data For  sendRawTransaction RPC",
+  "version": "1.0.3",
+  "description": "Get The Transaction's Data For sendRawTransaction RPC",
   "main": "./index.js",
   "dependencies": {
     "bignumber.js": "github:frozeman/bignumber.js-nolookahead",
@@ -28,7 +28,11 @@
   "keywords": [
     "Pchain",
     "Javascript",
-    "Transaction"
+    "Transaction",
+    "Ethereum",
+    "solidity",
+    "Smart Contract",
+    "sendRawTransaction"
   ],
   "author": "skykingit@aliyun.com",
   "authors": [],

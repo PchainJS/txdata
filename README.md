@@ -1,11 +1,11 @@
-# Solidity Smart Contract Transaction Data
+# Get The Transaction's Data For sendRawTransaction RPC
 
 ## Installation
 
 ### Node.js
 
 ```bash
-npm install pchainjs-txdata
+npm install txdata
 ```
 
 * Include `txdata.js` in your html file. (not required for the meteor package)
