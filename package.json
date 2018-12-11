@@ -1,7 +1,7 @@
 {
   "name": "txdata",
   "namespace": "pchain",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Get The Transaction's Data For  sendRawTransaction RPC",
   "main": "./index.js",
   "dependencies": {
